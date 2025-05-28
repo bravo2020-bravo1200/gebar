@@ -1,14 +1,18 @@
 asgiref==3.7.2
 asttokens==2.4.0
 backcall==0.2.0
+beautifulsoup4==4.13.4
 certifi==2023.7.22
 colorama==0.4.6
 comm==0.1.4
 debugpy==1.8.0
 decorator==5.1.1
+decouple==0.0.7
 distlib==0.3.7
 dj-database-url==2.3.0
 Django==4.2.6
+django-bootstrap-v5==1.0.11
+django-bootstrap5==25.1
 executing==2.0.0
 filelock==3.12.4
 gunicorn==23.0.0
@@ -29,10 +33,12 @@ psutil==5.9.5
 psycopg2-binary==2.9.9
 pure-eval==0.2.2
 Pygments==2.16.1
-python-dateutil==2.8.2
-pywin32==306; platform_system=="Windows"
+python-dateutil==2.9.0.post0
+python-decouple==3.8
+pywin32==306
 pyzmq==25.1.1
 six==1.16.0
+soupsieve==2.7
 sqlparse==0.4.4
 stack-data==0.6.3
 tornado==6.3.3
