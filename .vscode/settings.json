@@ -1,0 +1,5 @@
+{
+    "python.defaultInterpreterPath": ".\\myworld_venv\\scripts\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "terminal.integreated.defualtProfile.windows": "PowerShell"
+}
