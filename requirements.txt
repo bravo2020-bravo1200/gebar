@@ -33,7 +33,7 @@ pure-eval==0.2.2
 Pygments==2.16.1
 python-dateutil==2.9.0.post0
 python-decouple==3.8
-pywin32==306; 'platform_system=="Windows"'
+pywin32==306; platform_system=="Windows"
 pyzmq==25.1.1
 six==1.16.0
 soupsieve==2.7
