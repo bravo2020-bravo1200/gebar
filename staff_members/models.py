@@ -1,5 +1,5 @@
 from django.db import models
-from django.contrib.auth.models import User
+#from django.contrib.auth.models import User
 
 
 class Staff_member(models.Model):
@@ -8,8 +8,8 @@ class Staff_member(models.Model):
     phone = models.IntegerField(null=True)
     joined_date = models.DateField(null=True)
     slug = models.SlugField(default="", null=False)
-    author = models.ForeignKey(User,on_delete=models.CASCADE)
-    def __str__(self):
-       return f"{self.firstname} {self.lastname}"
+   # author = models.ForeignKey(User,on_delete=models.CASCADE)
+   # def __str__(self):
+     #  return f"{self.firstname} {self.lastname}"
 # Create your models here.
     
